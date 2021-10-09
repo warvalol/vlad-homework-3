@@ -1,0 +1,104 @@
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* body in wrapper */
+body {
+  font-family: "Playfair Display", "Ubuntu", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.main-header {
+  margin: 0 auto 105px auto;
+  text-align: center;
+  padding-top: 80px;
+}
+
+/* header -> ul with li LIFESTYLE, PHOTODIARY, MUSIC, TRAVEL */
+.main-menu {
+  list-style: none;
+  margin: 0px auto;
+  padding-left: 106px;
+}
+
+/* header */
+.main-menu-item {
+  display: inline-block;
+  margin-right: 106px;
+}
+
+/* header */
+.main-menu-item a {
+  color: #777777;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* header */
+.main-menu-item a:hover {
+  color: #46c0f7;
+}
+
+/* LIFESTYLE,LIFESTYLE, PHOTODIARY,PHOTODIARY, LIFESTYLE,LIFESTYLE */
+.main-menu-name {
+  font-family: "Ubuntu", sans-serif;
+  color: #bdb7aa;
+  line-height: auto;
+  text-transform: uppercase;
+  
+}
+
+.article-img {
+  margin-bottom: 33px;
+}
+
+/* More than just a music festival... */
+.life-style-title {
+  font-size: 30px;
+  text-transform: none;
+}
+
+.load-button {
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 70px;
+  width: 164px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid grey;
+  border-radius: 0px;
+  background: none;
+}
+
+.article-list {
+  list-style: none;
+}
+
+.article-item {
+  text-align: left;
+  width: 420px;
+  display: inline-block;
+  margin: 0 61px 135px 0;
+}
